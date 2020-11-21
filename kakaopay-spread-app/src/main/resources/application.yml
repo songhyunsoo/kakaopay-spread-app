@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /kakaoPay
+
+spring:
+  application:
+    name: kakaopay-spread-app
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: spreadDB
