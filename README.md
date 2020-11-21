@@ -62,16 +62,18 @@ public class DistributionVO {
 ```
 
 
-### 테스트 방법
+## 테스트 방법
 
-## 테스트 코드를 통한 테스트
+
+### 테스트 코드를 통한 테스트
 
 - 아래 코드를 Junit으로 실행하여 테스트
 - SpreadApplicationTests.java (기본 뿌리기/받기/조회 테스트)
 - ReceiveExceptionTests.java (받기 기능에 대한 제약 조건 테스트)
 - SearchExceptionTests.java (조회 기능에 대한 제약 조건 테스트)
 
-## Swagger UI를 통한 테스트
+
+### Swagger UI를 통한 테스트
 
 - application을 실행 후, http://localhost:8080/kakaopay/swagger-ui.html 로 접속
 
