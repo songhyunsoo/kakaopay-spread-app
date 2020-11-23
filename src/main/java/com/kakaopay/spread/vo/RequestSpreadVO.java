@@ -9,7 +9,7 @@ import lombok.Data;
 public class RequestSpreadVO {
 
 	@ApiModelProperty(value = "뿌릴 금액", example ="1000000", required = true)
-	private double money;
+	private int money;
 	@ApiModelProperty(value = "뿌릴 인원", example ="10", required = true)
 	private int personCount;
 	

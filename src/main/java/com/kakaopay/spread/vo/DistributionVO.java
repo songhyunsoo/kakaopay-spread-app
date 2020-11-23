@@ -8,9 +8,12 @@ import lombok.Data;
 @Document
 public class DistributionVO {
 
+	//분배 금액
 	private int distributionMoney;
 	
+	//받은 여부
 	private boolean expired;
 	
+	//받은 사람
 	private String receivedUserId;
 }

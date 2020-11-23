@@ -90,7 +90,7 @@ public class SpreadService {
 		ResponseSpreadVO responseSpreadVO = new ResponseSpreadVO();
 		//표준시에서 한국시로 변경하여 사용자에게 보여준다.
 		responseSpreadVO.setCreateTime(SpreadUtil.getCurrentDate(spreadVO.getCreateTime()));
-		responseSpreadVO.setSpreadMoney((int)spreadVO.getMoney());
+		responseSpreadVO.setSpreadMoney(spreadVO.getMoney());
 		List<DistributionVO> list = spreadVO.getDistribution();
 		List<CompletedRecevingInfoVO> infoList = new ArrayList<CompletedRecevingInfoVO>();
 		int money = 0;

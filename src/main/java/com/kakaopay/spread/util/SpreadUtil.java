@@ -47,11 +47,11 @@ public final class SpreadUtil {
     }
     
     
-    public static List<Integer> distributeMoney(double money, int personCount)
+    public static List<Integer> distributeMoney(int money, int personCount)
     {
     	int total = 0;
     	List<Integer> list = new ArrayList<Integer>();
-    	int totalPercentage = (int)money;
+    	int totalPercentage = money;
     	for(int i=0; i<personCount; i++) {
     	//마지막 순번일 때
     	if(i == personCount - 1)
